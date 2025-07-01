@@ -1,6 +1,6 @@
 # Job Application Form
 
-A multi-step, modern React job application form with validation, step indicators, and a summary screen.
+A multi-step, modern React job application form with validation, step indicators, and asummary screen.
 
 ---
 
@@ -17,14 +17,10 @@ A multi-step, modern React job application form with validation, step indicators
 
 ## 🖥️ Tech Stack
 
-<div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=f5e9f7" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=f5e9f7" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=f5e9f7" alt="TailwindCSS" />
-  <img src="https://img.shields.io/badge/ReactHookForm-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white&labelColor=f5e9f7" alt="React Hook Form" />
-  <img src="https://img.shields.io/badge/Lucide-9c7dfc?style=for-the-badge&logo=lucide&logoColor=white&labelColor=f5e9f7" alt="Lucide Icons" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white&labelColor=f5e9f7" alt="Vite" />
-</div>
+![React](https://img.shields.io/badge/-React-DBF3FA?style=flat\&logo=react\&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-E8F0FE?style=flat\&logo=typescript\&logoColor=black)
+![Vite](https://img.shields.io/badge/-Vite-FCF1F7?style=flat\&logo=vite\&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-E6FAF2?style=flat\&logo=tailwind-css\&logoColor=black)
 
 ---
 
@@ -51,21 +47,23 @@ yarn dev
 * Go to [http://localhost:5173](http://localhost:5173) (or the port Vite gives you)
 
 ---
+### 📸 Example Screenshots
 
-## 📸 Example Screenshots
+### 📸 Example Screenshots
 
-
-1. **Personal Info Step**
-   ![](./screenshots/form-step-1.png)
-
-2. **Education Step**
-   ![](./screenshots/form-step-2.png)
-
-3. **Work Experience Step**
-   ![](./screenshots/form-step-3.png)
-
-4. **Submission Summary**
-   ![](./screenshots/form-step-4.png)
-
+<div style="display: flex; gap: 12px; flex-wrap: wrap;">
+  <img src="./screenshots/ss1.jpg" alt="Personal Info" width="400"/>
+  <img src="./screenshots/ss2.jpg" alt="Education" width="400"/>
+  <img src="./screenshots/ss3.jpg" alt="Work Experience" width="400"/>
+  <img src="./screenshots/ss4.jpg" alt="Summary" width="400"/>
+</div>
 
 ---
+
+## 👩‍💻 Author
+
+**Sanya Shresta Jathanna**
+
+[![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat\&logo=github)](https://github.com/SanyaShresta25)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-ccf?style=flat\&logo=linkedin\&logoColor=black)](https://www.linkedin.com/in/sanya-shresta-jathanna)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-e6e6fa?style=flat)](https://sanyashresta.netlify.app/)
