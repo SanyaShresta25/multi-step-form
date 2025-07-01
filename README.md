@@ -54,7 +54,6 @@ yarn dev
 
 ## 📸 Example Screenshots
 
-> **Recommended width:** 1200px for best Canva/print results.
 
 1. **Personal Info Step**
    ![](./screenshots/form-step-1.png)
@@ -68,9 +67,5 @@ yarn dev
 4. **Submission Summary**
    ![](./screenshots/form-step-4.png)
 
-Add your screenshots (at 1200px width) to a `/screenshots` folder for clear, high-res documentation and Canva presentations!
 
 ---
-
-
-*Design and tech stack badges in Canva-style pastels!*
