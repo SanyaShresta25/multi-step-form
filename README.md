@@ -49,13 +49,11 @@ yarn dev
 ---
 ### 📸 Example Screenshots
 
-### 📸 Example Screenshots
-
 <div style="display: flex; gap: 12px; flex-wrap: wrap;">
   <img src="./screenshots/ss1.jpg" alt="Personal Info" width="400"/>
-  <img src="./screenshots/ss2.jpg" alt="Education" width="400"/>
+  <img src="./screenshots/ss2.jpg" alt="Education" width="500"/>
   <img src="./screenshots/ss3.jpg" alt="Work Experience" width="400"/>
-  <img src="./screenshots/ss4.jpg" alt="Summary" width="400"/>
+  <img src="./screenshots/ss4.jpg" alt="Summary" width="500"/>
 </div>
 
 ---
