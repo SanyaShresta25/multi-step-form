@@ -1,30 +1,43 @@
+export { formReducer, initialState };
+export type { FormState, FormAction };
+import type { FormData } from './types'; 
 
-export interface State {
-  step: number;
-  data: any;
+
+interface FormState {
+  currentStep: number;
+  data: Partial<FormData>;
+  completedSteps: number[];
 }
 
-export type Action =
-  | { type: "NEXT"; payload: any }
-  | { type: "BACK" }
-  | { type: "RESET" };
+type FormAction =
+  | { type: 'NEXT_STEP' }
+  | { type: 'PREV_STEP' }
+  | { type: 'UPDATE_DATA'; payload: Partial<FormData> }
+  | { type: 'COMPLETE_STEP'; step: number }
+  | { type: 'RESET' };
 
-export const initialState: State = {
-  step: 1,
+const initialState: FormState = {
+  currentStep: 1,
   data: {},
+  completedSteps: []
 };
 
-export function reducer(state: State, action: Action): State {
+function formReducer(state: FormState, action: FormAction): FormState {
   switch (action.type) {
-    case "NEXT":
+    case 'NEXT_STEP':
+      return { ...state, currentStep: Math.min(state.currentStep + 1, 3) };
+    case 'PREV_STEP':
+      return { ...state, currentStep: Math.max(state.currentStep - 1, 1) };
+    case 'UPDATE_DATA':
+      return { ...state, data: { ...state.data, ...action.payload } };
+    case 'COMPLETE_STEP':
       return {
         ...state,
-        step: state.step + 1,
-        data: { ...state.data, ...action.payload },
+        completedSteps: state.completedSteps.includes(action.step)
+          ? state.completedSteps
+          : [...state.completedSteps, action.step]
       };
-    case "BACK":
-      return { ...state, step: state.step - 1 };
-    case "RESET":
+    case 'RESET':
       return initialState;
     default:
       return state;

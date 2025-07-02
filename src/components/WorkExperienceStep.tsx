@@ -1,6 +1,6 @@
 import { useFormContext } from "react-hook-form";
 
-// Work Experience Step
+
 const WorkExperienceStep: React.FC = () => {
 const { register, formState: { errors } } = useFormContext();
   return (
